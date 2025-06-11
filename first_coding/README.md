@@ -3,7 +3,7 @@
 sudo apt update
 sudo apt install python3 python3-pyqt5
 ```
------- Or if using Tkinter (already included in Python by default):
+Or if using Tkinter (already included in Python by default):
 ```
 sudo apt install python3-tk
 ```
