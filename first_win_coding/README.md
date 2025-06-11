@@ -1,8 +1,8 @@
-# Example: For Python + PyQt5
+# Windows App Example: For Python + PyQt5
 ```
 pip install PyQt5
 ```
-## Write a Simple App (Example: PyQt5) -------
+## Write a Simple App for Windows (Example: PyQt5) -------
 ```
 import sys
 from PyQt5.QtWidgets import QApplication, QLabel, QWidget
