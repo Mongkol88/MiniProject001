@@ -2,10 +2,10 @@
 ```
 sudo apt update
 sudo apt install python3 python3-pyqt5
+python3 -m pip install PyQt5
 sudo apt install python3-venv python3-full
 python3 -m venv .venv
 source .venv/bin/activate
-pip install pyinstaller
 ```
 Or if using Tkinter (already included in Python by default):
 ```
@@ -41,7 +41,9 @@ fpm (package builder)
 ## PyInstaller (to make a standalone executable)
 ```
 pip install pyinstaller
-pyinstaller --onefile --windowed my_first_app.py
+pyinstaller --onefile \
+  --hidden-import PyQt5.QtNetwork \
+  my_first_app.py
 ```
 
 
