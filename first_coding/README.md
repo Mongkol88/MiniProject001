@@ -38,14 +38,16 @@ Later, you can package your app into a .deb file or AppImage to make it easier t
 Tools:
 fpm (package builder)
 
-## PyInstaller (to make a standalone executable)
+## Install the PyInstaller
 ```
 pip install pyinstaller
+```
+## Make a standalone executable
+```
 pyinstaller --onefile \
   --hidden-import PyQt5.QtNetwork \
   my_first_app.py
 ```
-
 
 
 
