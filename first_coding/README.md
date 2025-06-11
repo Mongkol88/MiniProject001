@@ -2,10 +2,10 @@
 ```
 sudo apt update
 sudo apt install python3 python3-pyqt5
-python3 -m pip install PyQt5
 sudo apt install python3-venv python3-full
 python3 -m venv .venv
 source .venv/bin/activate
+python3 -m pip install PyQt5
 ```
 Or if using Tkinter (already included in Python by default):
 ```
