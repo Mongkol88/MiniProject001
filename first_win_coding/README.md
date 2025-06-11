@@ -13,7 +13,7 @@ app = QApplication(sys.argv)
 # Step 2: Create the main window
 window = QWidget()
 window.setWindowTitle('My First PyQt5 App')
-window.setGeometry(100, 100, 300, 200)  # x, y, width, height
+window.setGeometry(100, 100, 500, 200)  # x, y, width, height
 
 # Step 3: Add a label widget
 label = QLabel('<h1>Hello, Windows with PyQt5!</h1>', parent=window)
