@@ -18,3 +18,5 @@ window.show()
 
 # Step 5: Start the event loop
 sys.exit(app.exec_())
+
+print("Helo wrodl")
